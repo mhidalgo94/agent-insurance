@@ -1,0 +1,14 @@
+:root {
+    --bulma-primary-h: 190deg;
+    --bulma-primary-l: 51%;
+    --bulma-info-l: 69%;
+    --bulma-success-h: 142deg;
+    --bulma-success-s: 70%;
+    --bulma-success-l: 59%;
+  }
+
+html{
+  background-color: white;
+}
+  
+  

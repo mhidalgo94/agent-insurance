@@ -1,15 +1,26 @@
 import 'bulma/css/bulma.min.css';
-
-
+import './base-var.css';
+import './app.css';
+import Navbar from './components/navbar/Navbar';
+import Header from './components/header/Header'
 function App() {
 
 
   return (
     <>
-      <div className="container">
-      <h1 className="title">Hello, Bulma in React!</h1>
-      <button className="button is-primary">Primary Button</button>
-    </div>
+      <Navbar />
+      <Header />
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, corporis possimus! Distinctio quasi nulla laudantium ullam debitis autem aliquid, cupiditate maiores corporis magni, possimus aperiam. Odit quasi harum quis voluptatum!</p>
     </>
   )
 }
