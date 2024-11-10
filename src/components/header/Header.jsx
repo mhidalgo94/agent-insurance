@@ -8,7 +8,8 @@ const Header = ()=>{
         {/* <div className='header0im'></div> */}
         <div className="overlay">
           <div className='text-overlay'>
-            <h1 className='title is-1'>Hi 👋, I'm Leo Fernandez.</h1>
+            <h1 className='title is-1'>Welcome, I'm Leo Fernandez.</h1>
+            {/* <h1 className='title is-1'>Hi 👋, I'm Leo Fernandez.</h1> */}
             <p className='subtitle is-5 mt-2'>Discover expert insurance solutions tailored to your medical needs.<br/> Your health, our priority.</p>
             <div className='cards-headers'>
             <div className="columns is-multiline">

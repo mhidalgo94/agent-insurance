@@ -1,11 +1,17 @@
 :root {
-    --bulma-primary-h: 190deg;
-    --bulma-primary-l: 51%;
-    --bulma-info-l: 69%;
-    --bulma-success-h: 142deg;
-    --bulma-success-s: 70%;
-    --bulma-success-l: 59%;
-  }
+  --bulma-primary-h: 214deg;
+  --bulma-primary-l: 62%;
+  --bulma-link-h: 238deg;
+  --bulma-link-s: 90%;
+  --bulma-link-l: 49%;
+  --bulma-info-l: 69%;
+  --bulma-success-h: 142deg;
+  --bulma-success-s: 70%;
+  --bulma-success-l: 59%;
+  --bulma-scheme-h: 234;
+}
+
+
 
 html{
   background-color: white;

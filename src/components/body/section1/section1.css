@@ -1,4 +1,4 @@
-.section1{
+/* .section1{
     width: 100%;
     height: 550px;
     background-color: #fff;
@@ -6,5 +6,93 @@
 
 .section-content{
     margin: 0 auto;
-    
+
+} */
+
+
+/* Estilos generales para la sección */
+.section1 {
+    display: flex;
+    flex-direction: row; /* Alinea el texto a la izquierda y la imagen a la derecha */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
 }
+  
+.section-content {
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+  
+.section-text {
+    flex: 1;
+    padding-right: 20px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.list-section1{
+    margin-top: 20px;
+}
+
+.list-section1 .items-list{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    gap:5px;
+    margin-top: 10px;
+}
+.list-section1 .items-list svg{
+    fill:#4ca2cd;
+}
+
+.list-section1 .items-list p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.section-img {
+    flex: 1;
+}
+  
+.section-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 14px 14px 14px 104px;
+}
+  
+.btn-contact{
+    margin-top: 38px;
+}
+
+  /* Estilos para la versión responsive */
+@media (max-width: 768px) {
+    .section1 {
+      flex-direction: column; /* Pone los elementos en una columna */
+      justify-content: center;
+      text-align: center;
+      height: auto;
+    }
+  
+    .section-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .section-text {
+      padding-right: 0;
+      padding-left: 0;
+      margin-bottom: 20px; /* Añade un margen inferior para separar el texto de la imagen */
+    }
+  
+    .section-img img {
+      max-width: 300px; /* La imagen será más pequeña en pantallas pequeñas */
+      margin-top: 20px; /* Añade un margen superior para separar la imagen del texto */
+    }
+}
+  
