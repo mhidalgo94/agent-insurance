@@ -1,0 +1,161 @@
+/* Estilos Generales */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  transition: ease 0.7s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Navbar reducido al hacer scroll */
+.navbar.scrolled {
+  margin-top: 13px;
+  background-color: transparent;
+  transition: ease 1s;
+  box-shadow:none;
+
+}
+
+/* Contenedor del Navbar */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 89%;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  padding: 15px 25px;
+  transition: ease 0.2s;
+
+}
+.navbar-container.scrolled{
+  border-radius: 40px;
+  transition: ease-in 0.2s;
+  box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Estilos del Burger Menu */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.burger-menu .line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Transformación a Cruz (X) */
+.burger-menu.open .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger-menu.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.open .line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Enlaces de Navegación */
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: rgb(0 0 0 / 1);
+  font-weight: 500;
+}
+
+.navbar-links li a:hover{
+  color: rgb(0 0 0 / 0.5);
+}
+
+/* Botón Contact Us */
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  height: 40px;
+  font-weight: 400;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  /* margin-top: 5px; */
+  gap: 0.5rem;
+  border-radius: 9999px;
+  color: rgb(0 0 0 / 1);
+  border: solid  1px;
+  border-color: rgb(0 0 0 /1);
+}
+
+.contact-link:hover{
+  /* border:none; */
+  border-color: rgb(0 0 0 /0.3);
+  transition: transform 0.3s ease;
+}
+
+.contact-link .arrow {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+  transition: transform 0.3s ease;
+}
+
+.contact-link:hover {
+  background-color: rgb(0 0 0 / 0.05);
+}
+
+.contact-link:hover .arrow {
+  transform: translateX(5px);
+}
+
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 80%;
+  }
+
+  .contact-button {
+    position: absolute;
+    right: 20px;
+  }
+}
