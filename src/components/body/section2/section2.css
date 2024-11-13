@@ -9,3 +9,27 @@
     background-color: rgb(0 0 0 / 0.05);
     transition: ease-in 0.2s;
 }
+
+
+/* CSS personalizado */
+.column {
+    border-right: 1px solid #ddd; /* Agrega una línea a la derecha de cada columna */
+}
+
+/* Elimina la línea del último card */
+.column:last-child {
+    border-right: none;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+    .column {
+      border-right: none; /* Elimina las líneas en dispositivos móviles */
+    }
+}
+
+@media (max-width: 1100px) {
+    .column {
+      border-right: none; /* Elimina las líneas en dispositivos móviles */
+    }
+}

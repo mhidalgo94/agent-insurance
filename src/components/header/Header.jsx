@@ -12,8 +12,8 @@ const Header = ()=>{
             {/* <h1 className='title is-1'>Hi 👋, I'm Leo Fernandez.</h1> */}
             <p className='subtitle is-5 mt-2'>Discover expert insurance solutions tailored to your medical needs.<br/> Your health, our priority.</p>
             <div className='cards-headers'>
-            <div className="columns is-multiline">
-              <div className="column is-one-third">
+            <div className="columns is-multiline" >
+              <div className="column is-one-third"  style={{border:"none"}}>
                 <div className='card'>
                   <div className="card-content">
                     <span className='icon-card' >
@@ -28,7 +28,7 @@ const Header = ()=>{
                   </div>
                 </div>
               </div>
-              <div className="column is-one-third">
+              <div className="column is-one-third"  style={{border:"none"}}>
                 <div className="card">
                 <div className="card-content">
                     <span className='icon-card' >
@@ -41,7 +41,7 @@ const Header = ()=>{
                   </div>
                 </div>
               </div>
-              <div className="column is-one-third">
+              <div className="column is-one-third"  style={{border:"none"}}>
                 <div className="card">
                   <div className="card-content">
                     <span className='icon-card' >
