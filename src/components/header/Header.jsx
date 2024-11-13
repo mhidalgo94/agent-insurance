@@ -3,7 +3,7 @@ import backgroundImage from '../../images/header-bg.jpeg';
 
 const Header = ()=>{
     return (
-      <header className="header" >
+      <header className="header">
          {/* style={{backgroundImage:`url(${backgroundImage})`}}> */}
         {/* <div className='header0im'></div> */}
         <div className="overlay">

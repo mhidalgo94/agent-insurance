@@ -5,7 +5,7 @@
     background-position: center;
     background-size:300%;
     background-repeat: no-repeat;
-} */
+}  */
 .header {
     position: relative;
     width: 100%;
@@ -14,7 +14,7 @@
               radial-gradient(circle at 80% 70%, #1dd1a1, transparent 40%),
               radial-gradient(circle at 50% 50%, #54a0ff, transparent 60%);
     background-color: #1c1c1e;
-}  
+}
 
 
 
