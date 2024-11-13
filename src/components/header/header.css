@@ -48,7 +48,7 @@
 
 .cards-headers{
     min-width: 90%;
-    margin-top: 40px;
+    margin-top: 120px;
 }
 
 .card {
@@ -87,7 +87,10 @@
     }
     .text-overlay{
         margin-top: 150px;
-    } 
+    }
+    .cards-headers{
+        margin-top: 60px;
+    }
   }
   
   @media (max-width: 480px) {
@@ -97,5 +100,8 @@
     }
     .text-overlay{
         margin-top: 40px;
-    } 
+    }
+    .cards-headers{
+        margin-top: 40px;
+    }
   }
