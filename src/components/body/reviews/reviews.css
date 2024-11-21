@@ -1,0 +1,13 @@
+
+
+#reviewCard{
+    background-color: rgba(154, 206, 240, 0.25);
+    min-height: 200px;
+    
+}
+
+
+#reviewCard:hover{
+    background-color:rgba(179, 215, 239, .55);
+
+}
