@@ -91,9 +91,9 @@
     .cards-headers{
         margin-top: 60px;
     }
-  }
+}
   
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
 
     .header {
       height: 1100px; /* Altura mínima para pantallas muy pequeñas */

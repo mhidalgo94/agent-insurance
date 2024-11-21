@@ -3,7 +3,7 @@ import './base-var.css';
 import './app.css';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/home';
-
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <Footer />
     </>
   )
 }

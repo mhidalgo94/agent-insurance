@@ -1,0 +1,39 @@
+
+
+#footerMenu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerMenu .menu-list li a{
+    background-color: transparent;
+}
+
+#footerMenu .menu-list li a:hover {
+    color:rgb(111, 166, 229) !important;
+}
+
+
+#listIconsFooter a{
+    fill:#098bcc;
+}
+
+#listIconsFooter a:hover{
+    fill:#50a1ca;
+}
+
+
+@media (max-width: 768px) { 
+
+    #footerMenu ul{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    #footerMenu ul{
+        flex-direction: column;
+    }
+}

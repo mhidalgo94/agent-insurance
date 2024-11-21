@@ -16,7 +16,7 @@ const Reviews = ()=> {
                     <div className="card" style={{border:"none", boxShadow:"none", background:'transparent'}}>
                         <div className="card-content" id="reviewCard">
                             <div>
-                                <p className="subtitle2 is-size-6 has-text-grey-dark">HealthGuard Agent provided exceptional service and found the perfect plan for my needs.</p>
+                                <p className="subtitle2 is-size-6 has-text-grey-dark">Leo Fernández Agent provided exceptional service and found the perfect plan for my needs.</p>
                                 <div className='mt-2' style={{display:'flex', flexDirection:'row', justifyContent:"left"}}>
                                     <figure class="image is-64x64 mt-4" >
                                         <img src={rimg2} style={{borderRadius:'50%'}} />
