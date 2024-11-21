@@ -5,8 +5,7 @@ const Section2 = ()=>{
         <section className="section cards-section mt-5">
             <div className="container p-5">
                 <div className="columns is-multiline is-centered">
-            
-                    <div className="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div className="column is-12-mobile is-6-tablet is-4-desktop" id="columnLine">
                         <div className="card" style={{border:"none", boxShadow:"none"}} id="card0">
                             <div className="card-content" style={{display:"block"}}>
                                 <svg aria-hidden="true" width="40" height="40"focusable="false"role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -20,7 +19,7 @@ const Section2 = ()=>{
                             </div>
                         </div>
                     </div>
-                    <div className="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div className="column is-12-mobile is-6-tablet is-4-desktop" id="columnLine">
                         <div className="card" style={{border:"none", boxShadow:"none"}} id="card0">
                             <div className="card-content" style={{display:"block"}}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
@@ -34,7 +33,7 @@ const Section2 = ()=>{
                         </div>
                     </div>
 
-                    <div className="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div className="column is-12-mobile is-6-tablet is-4-desktop" id="columnLine">
                         <div className="card" style={{border:"none", boxShadow:"none"}} id="card0">
                             <div className="card-content" style={{display:"block"}}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">

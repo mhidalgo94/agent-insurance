@@ -12,12 +12,12 @@
 
 
 /* CSS personalizado */
-.column {
+#columnLine {
     border-right: 1px solid #ddd; /* Agrega una línea a la derecha de cada columna */
 }
 
 /* Elimina la línea del último card */
-.column:last-child {
+#columnLine:last-child {
     border-right: none;
 }
 
