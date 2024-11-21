@@ -1,5 +1,5 @@
 import './header.css';
-import backgroundImage from '../../images/header-bg.jpeg';
+// import backgroundImage from '../../../images/header-bg.jpeg';
 
 const Header = ()=>{
     return (
