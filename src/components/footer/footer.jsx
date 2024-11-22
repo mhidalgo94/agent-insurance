@@ -44,7 +44,7 @@ const Footer = () => {
 
             <div className="content has-text-centered mt-5">
                 <p className='has-text-dark'>
-                © <strong style={{color:'rgb(111, 166, 229)'}}>Leo Fernández</strong> Agent 2023, Your Trusted Insurance Partner
+                © <strong style={{color:'rgb(111, 166, 229)'}}>Leo Fernández</strong> Agent {(new Date().getFullYear())}, Your Trusted Insurance Partner
                 </p>
             </div>
         </div>

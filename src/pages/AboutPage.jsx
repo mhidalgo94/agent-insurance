@@ -1,12 +1,15 @@
 import Header from "../components/about/Header";
+import Section1About from "../components/about/Section1About";
+import Section2About from "../components/about/Section2About";
+
 
 const AboutPage = () => {
   return (
-    <section className="hero" id="heroHeaderAbout">
-        <div className="hero-body" id="heroBodyHeaderAbout">
-            <Header />
-        </div>
-    </section>
+    <>
+        <Header />
+        <Section1About />
+        <Section2About />
+    </>
   )
 }
 

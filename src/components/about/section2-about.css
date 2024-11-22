@@ -1,0 +1,15 @@
+
+.cards-about{
+    max-width: 400px;
+}
+
+
+.cards-about .card-about{
+    display: flex;
+    gap: 10px;
+
+}
+
+.cards-about .card-about .icon svg{
+    fill:#098bcc;
+}
