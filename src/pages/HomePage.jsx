@@ -1,9 +1,8 @@
 import Home from "../components/home/home";
 
 const HomePage = () => {
-  return (
-    <Home />
-  )
+  return <Home />
+
 }
 
 
