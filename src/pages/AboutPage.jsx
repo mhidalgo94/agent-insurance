@@ -1,10 +1,12 @@
-
+import Header from "../components/about/Header";
 
 const AboutPage = () => {
   return (
-    <div className="container" style={{minHeight:'69vh', paddingTop:'100px'}}>
-      <h1 >About</h1>
-    </div> 
+    <section className="hero" id="heroHeaderAbout">
+        <div className="hero-body" id="heroBodyHeaderAbout">
+            <Header />
+        </div>
+    </section>
   )
 }
 

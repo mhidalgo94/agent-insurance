@@ -1,0 +1,27 @@
+#heroHeaderAbout{
+    height: 500px;
+    background: radial-gradient(circle at 20% 30%, #ff6b6b, transparent 40%),
+              radial-gradient(circle at 80% 70%, #1dd1a1, transparent 40%),
+              radial-gradient(circle at 50% 50%, #54a0ff, transparent 60%);
+    background-color: #1c1c1e;
+}
+
+#heroBodyHeaderAbout{
+    background-color: rgba(6, 45, 99, 0.736);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#containerHeader{
+    /* min-height: 69vh; */
+    padding-top: 100px;
+}
+
+#header-subtitle{
+    height: 100%;
+    max-width: 720px;
+    margin:auto;
+    line-height: 1.5rem;
+
+}

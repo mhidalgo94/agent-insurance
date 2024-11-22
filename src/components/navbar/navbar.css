@@ -85,7 +85,7 @@
 }
 
 .navbar-links li a:hover{
-  color: rgb(0 0 0 / 0.5);
+  color:rgb(111, 166, 229);
 }
 
 /* Botón Contact Us */
@@ -111,6 +111,7 @@
   /* border:none; */
   border-color: rgb(0 0 0 /0.3);
   transition: transform 0.3s ease;
+  color:rgb(111, 166, 229);
 }
 
 .contact-link .arrow {
