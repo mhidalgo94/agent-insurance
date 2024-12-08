@@ -1,0 +1,21 @@
+
+
+.box-container{
+    display: block;
+    align-items: center;
+    
+}
+
+.icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: 80px;
+    max-height: 80px;
+    padding: 20px;
+    margin: 0 auto;
+
+    background: rgb(7,229,255);
+    background: linear-gradient(231deg, rgba(7,229,255,0.3505996148459384) 7%, rgba(205,242,245,0.5298713235294117) 53%);
+}

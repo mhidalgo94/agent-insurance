@@ -1,17 +1,17 @@
 
 export default function Section1About() {
   return (
-    <section className="hero" style={{paddingTop:'5rem'}}>
+    <section className="hero" style={{backgroundColor: 'rgb(232, 250, 255)', paddingTop:'8rem', paddingBottom:'8rem'}}>
             <div className="hero-body mt-5">
                 <div>
                     <div className="container mt-2">
-                        <p className="subtitle has-text-info">Experience and Achievements</p>
+                        <p className="subtitle has-text-info is-3">Experience and Achievements</p>
                         <p className="title has-text-dark mt-2 is-size-2">Our Journey in Medical Insurance</p>
                     </div>
-                    <div className="container mt-4 pl-3 has-text-dark">
-                        <p className="is-size-5" style={{maxWidth:'600px', textAlign:'left'}}> We have consistently delivered personalized solutions to meet the unique needs of each client.</p>
-                        <p className="is-size-5 mt-4" style={{maxWidth:'600px', textAlign:'left'}}>Our track record speaks for itself, with numerous awards and recognitions highlighting our commitment to excellence.</p>
-                        <p className="is-size-5 mt-4" style={{maxWidth:'600px', textAlign:'left'}}>Join us as we continue to innovate and provide top-tier insurance services that you can rely on.</p>
+                    <div className="container mt-4 pl-3 has-text-dark-light">
+                        <p className="is-size-5 has-text-dark" style={{maxWidth:'600px', textAlign:'left'}}> We have consistently delivered personalized solutions to meet the unique needs of each client.</p>
+                        <p className="is-size-5 mt-4 has-text-dark" style={{maxWidth:'600px', textAlign:'left'}}>Our track record speaks for itself, with numerous awards and recognitions highlighting our commitment to excellence.</p>
+                        <p className="is-size-5 mt-4 has-text-dark" style={{maxWidth:'600px', textAlign:'left'}}>Join us as we continue to innovate and provide top-tier insurance services that you can rely on.</p>
                         
                         
                         <div className='buttons mt-6'>

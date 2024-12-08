@@ -1,0 +1,29 @@
+
+.group-contact{
+    margin-right: auto;
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;    
+}
+
+.text-left{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-right{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.email-link{
+    margin-top: 20px;
+}
+
+.email-link:hover{
+    color:#098bcc
+}
