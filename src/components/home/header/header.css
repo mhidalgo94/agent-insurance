@@ -58,7 +58,7 @@
     border: 1px solid rgba(199, 186, 186, 0.1);
     border-radius: 0.74rem;
     max-width: 400px;
-    transition: ease-in 0.2s;
+    /* transition: ease-in 0.2s; */
 }
 
 .card:hover{

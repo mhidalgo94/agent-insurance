@@ -1,6 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'motion/react';
 import './navbar.css';
+
+const {initial: navInitial, animate: navAnimate} = {
+  initial :{
+      // top: '-40px',
+      opacity: 0,
+  },
+  animate:{
+      // top: '0px',
+      opacity: 1,
+      transition: {
+          type: "easy",
+          duration: .8
+      }
+  }
+}
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +41,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
+    <motion.nav className={`navbar ${isScrolled ? "scrolled" : ""}`} initial={navInitial} whileInView={navAnimate}>
       <div className={`navbar-container ${isScrolled ? "scrolled" : ""}`}>
         <div className={`burger-menu ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
           <span className="line"></span>
@@ -48,7 +65,7 @@ const Navbar = () => {
         </Link>
         </div>
       </div>
-    </nav>
+    </motion.nav>
   );
 };
 

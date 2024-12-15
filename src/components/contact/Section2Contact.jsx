@@ -2,7 +2,7 @@
 export default function Section2Contact() {
   return (
     <section className="hero" style={{backgroundColor: 'rgb(232, 250, 255)', paddingTop:'5rem', paddingBottom:'5rem'}}>
-            <div className="hero-body ml-6 mt-5" style={{maxWidth:'1000px'}}>
+            <div className="hero-body ml-6 mt-5">
                 <div>
                     <div className="container mt-2">
                         <p className="subtitle has-text-info is-3">Experience and Achievements</p>

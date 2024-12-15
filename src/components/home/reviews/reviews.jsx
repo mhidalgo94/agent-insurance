@@ -2,6 +2,7 @@ import rimg1 from '../../../images/review-img1.jpeg';
 import rimg2 from '../../../images/review-img2.jpeg';
 import rimg3 from '../../../images/review-img3.jpeg';
 import './reviews.css';
+
 const Reviews = ()=> {
   return (
     <section className="hero mt-5 " style={{backgroundColor:'#e8faff',paddingBottom:'6rem'}}>
