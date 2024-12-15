@@ -2,7 +2,7 @@
 export default function Section1About() {
   return (
     <section className="hero" style={{backgroundColor: 'rgb(232, 250, 255)', paddingTop:'8rem', paddingBottom:'8rem'}}>
-            <div className="hero-body mt-5">
+            <div className="hero-body ml-6 mt-5">
                 <div>
                     <div className="container mt-2">
                         <p className="subtitle has-text-info is-3">Experience and Achievements</p>

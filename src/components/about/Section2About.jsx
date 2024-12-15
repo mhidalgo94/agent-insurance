@@ -4,7 +4,7 @@ import './section2-about.css';
 export default function Section2About() {
   return (
     <section className="hero" style={{paddingTop:'6rem', paddingBottom:'6rem'}} >
-        <div className="hero-body mt-5">
+        <div className="hero-body ml-6 mt-5">
             <div className="container" >
                 <div className="container mt-2">
                     <p className="subtitle has-text-info is-size-3">Tailored to Your Needs</p>

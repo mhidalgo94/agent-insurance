@@ -4,7 +4,7 @@ import rimg3 from '../../../images/review-img3.jpeg';
 import './reviews.css';
 const Reviews = ()=> {
   return (
-    <section className="hero mt-5 " style={{backgroundColor:'#e8faff'}}>
+    <section className="hero mt-5 " style={{backgroundColor:'#e8faff',paddingBottom:'6rem'}}>
         <div className="hero-body">
             <div className='pt-5 mt-6' style={{margin:"0 auto", textAlign:'center'}}>
                 <p className='title is-4 has-text-primary'>Trusted by Many for Reliable Insurance Solutions</p>
