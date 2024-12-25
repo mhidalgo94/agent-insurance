@@ -25,9 +25,7 @@ export default function Section1About() {
                                 <p>Try for Free</p>
                             </a>
                         </div>
-                    </div>
-
-                    
+                    </div>   
                 </div>
             </div>
         </section>

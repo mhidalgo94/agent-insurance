@@ -4,7 +4,7 @@ import HomePage from "./HomePage";
 import ServicesPages from "./ServicesPage";
 import AboutPage from "./AboutPage";
 import ContactPage from "./ContactPage";
-
+import NotFound from "./NotFound";
 const Routers = createBrowserRouter([
     {
         path: "/",
@@ -27,6 +27,7 @@ const Routers = createBrowserRouter([
                 element: <ContactPage />,
             },
         ],
+        errorElement: <NotFound />
     },
 ]);
 
