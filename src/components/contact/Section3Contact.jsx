@@ -59,8 +59,8 @@ export default function Section3Contact() {
                         </div>
                         <div>
                             <p className="title is-size-5 has-text-info">Contact Us</p>
-                            <p className="subitle has-text-dark mt-2">Monday-Friday</p>
-                            <p className="subitle has-text-dark mt-2">9:00 am to 6:00 pm</p>
+                            <p className="subitle has-text-dark mt-2">+1 444 111 4444</p>
+                            <p className="subitle has-text-dark mt-2">+1 444 111 4444</p>
                         </div>
                     </div>
             </div>
